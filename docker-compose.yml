@@ -7,7 +7,7 @@ services:
         external_links:
             - redis
         volumes:
-            - .:/go/src/github.com/moos3/jourl
+            - ./:/go/src/github.com/moos3/skracacz
         environment:
             - REDIS_HOST=redis
             - REDIS_PORT=6379

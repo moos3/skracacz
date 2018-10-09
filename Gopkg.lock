@@ -23,7 +23,6 @@
   revision = "fbdcbd22751c7174d4f363995fca296e4670726b"
 
 [[projects]]
-  branch = "master"
   digest = "1:9bec3fd63b48b5f0e7675647a8b49015b2b7899750b8c0c67831e87436e2cab5"
   name = "github.com/go-redis/redis"
   packages = [
@@ -36,31 +35,32 @@
     "internal/util",
   ]
   pruneopts = "UT"
-  revision = "daf101bd7905b61ae654bc88ec1163be6914979e"
+  revision = "f3bba01df2026fc865f7782948845db9cf44cf23"
+  version = "v6.14.1"
 
 [[projects]]
-  branch = "master"
-  digest = "1:8715cd47fd0fa392884aab36611f25631b1540e7a21c5df171af3e397b42f302"
+  digest = "1:97df918963298c287643883209a2c3f642e6593379f97ab400c2a2e219ab647d"
   name = "github.com/golang/protobuf"
   packages = ["proto"]
   pruneopts = "UT"
-  revision = "ddf22928ea3c56eb4292a0adbbf5001b1e8e7d0d"
+  revision = "aa810b61a9c79d51363740d207bb46cf8e620ed5"
+  version = "v1.2.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:8d44b575d464430d321863488733d08f98b925721fff5b5f7f5011b6848ef135"
+  digest = "1:3e551bbb3a7c0ab2a2bf4660e7fcad16db089fdcfbb44b0199e62838038623ea"
   name = "github.com/json-iterator/go"
   packages = ["."]
   pruneopts = "UT"
-  revision = "2433035e513208b0f7bd5b50d0aecd889b2c1ff8"
+  revision = "1624edc4454b8682399def8740d46db5e4362ba4"
+  version = "v1.1.5"
 
 [[projects]]
-  branch = "master"
-  digest = "1:8d5e9f9351b41787ba94a0c0ed4e43ca169045e254f1f4841b3c6f03c31cdc02"
+  digest = "1:0981502f9816113c9c8c4ac301583841855c8cf4da8c72f696b3ebedf6d0e4e5"
   name = "github.com/mattn/go-isatty"
   packages = ["."]
   pruneopts = "UT"
-  revision = "3fb116b820352b7f0c281308a4d6250c22d94e27"
+  revision = "6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c"
+  version = "v0.0.4"
 
 [[projects]]
   digest = "1:33422d238f147d247752996a26574ac48dcf472976eda7f5134015f06bf16563"
@@ -71,20 +71,20 @@
   version = "1.0.3"
 
 [[projects]]
-  digest = "1:c56ad36f5722eb07926c979d5e80676ee007a9e39e7808577b9d87ec92b00460"
+  digest = "1:e32bdbdb7c377a07a9a46378290059822efdce5c8d96fe71940d87cb4f918855"
   name = "github.com/modern-go/reflect2"
   packages = ["."]
   pruneopts = "UT"
-  revision = "94122c33edd36123c84d5368cfb2b69df93a0ec8"
-  version = "v1.0.1"
+  revision = "4b7aa43c6742a2c18fdef89dd197aaae7dac7ccd"
+  version = "1.0.1"
 
 [[projects]]
-  branch = "master"
-  digest = "1:b91567481ed6a84e7748fd253e36522a0de397dd8e4327f4b60148076b589b0e"
+  digest = "1:03aa6e485e528acb119fb32901cf99582c380225fc7d5a02758e08b180cb56c3"
   name = "github.com/ugorji/go"
   packages = ["codec"]
   pruneopts = "UT"
-  revision = "99ea80c8b19ad777f970258ca09c5c2d5826f0fd"
+  revision = "b4c50a2b199d93b13dc15e78929cfb23bfdf21ab"
+  version = "v1.1.1"
 
 [[projects]]
   branch = "master"
@@ -95,11 +95,12 @@
   revision = "a33cd0b5f3de9ef5e89c90ab2f1ebe3f71ad1ece"
 
 [[projects]]
-  digest = "1:e16c53d2592b2ba64d1a6da684a952bdff8815ed8b901b220fe875864b664643"
+  branch = "master"
+  digest = "1:c2789211d4035eb0843b85958ecf7cb4a5ea91c2d4decee652c94ce898e433cb"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "b518c298ac9dc94b6ac0757394f50d10c5dfa25a"
+  revision = "4497e2df6f9e69048a54498c7affbbec3294ad47"
 
 [[projects]]
   digest = "1:cbc72c4c4886a918d6ab4b95e347ffe259846260f99ebdd8a198c2331cf2b2e9"
