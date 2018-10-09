@@ -1,7 +1,7 @@
 version: '2'
 services:
     go:
-        build: ./docker
+        build: .
         ports:
             - "3000:3000"
         external_links:
