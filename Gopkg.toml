@@ -34,7 +34,7 @@
   name = "github.com/vharitonsky/iniflags"
 
 [[constraint]]
-  name = "gopkg.in/redis.v6"
+  name = "github.com/go-redis/redis"
   version = "6.14.1"
 
 [prune]

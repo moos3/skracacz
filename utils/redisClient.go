@@ -3,7 +3,7 @@ package utils
 import (
 	"fmt"
 
-	"gopkg.in/redis.v6"
+	"github.com/go-redis/redis"
 )
 
 var client redis.Client

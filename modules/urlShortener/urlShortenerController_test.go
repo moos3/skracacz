@@ -2,6 +2,7 @@ package urlShortener
 
 import (
 	"testing"
+
 	"github.com/moos3/skracacz/utils"
 )
 
@@ -21,4 +22,4 @@ func TestRevertShortUrl(t *testing.T) {
 	utils.AssertIntEquals(t, 124, revertShortUrl("ca"))
 	utils.AssertIntEquals(t, 3844, revertShortUrl("baa"))
 	utils.AssertIntEquals(t, 3907, revertShortUrl("bbb"))
-}package urlShortener
+}

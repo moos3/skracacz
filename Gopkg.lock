@@ -23,9 +23,10 @@
   revision = "fbdcbd22751c7174d4f363995fca296e4670726b"
 
 [[projects]]
-  digest = "1:9bec3fd63b48b5f0e7675647a8b49015b2b7899750b8c0c67831e87436e2cab5"
+  digest = "1:7c2fd446293ff7799cc496d3446e674ee67902d119f244de645caf95dff1bb98"
   name = "github.com/go-redis/redis"
   packages = [
+    ".",
     "internal",
     "internal/consistenthash",
     "internal/hashtag",
@@ -111,14 +112,6 @@
   version = "v8.18.2"
 
 [[projects]]
-  digest = "1:ae9935dc5769a994496b1b5d40a2c1ad87fabcb4b18edec27d764bec8935a427"
-  name = "gopkg.in/redis.v6"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "f3bba01df2026fc865f7782948845db9cf44cf23"
-  version = "v6.14.1"
-
-[[projects]]
   digest = "1:342378ac4dcb378a5448dd723f0784ae519383532f5e70ade24132c4c8693202"
   name = "gopkg.in/yaml.v2"
   packages = ["."]
@@ -131,8 +124,8 @@
   analyzer-version = 1
   input-imports = [
     "github.com/gin-gonic/gin",
+    "github.com/go-redis/redis",
     "github.com/vharitonsky/iniflags",
-    "gopkg.in/redis.v6",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
