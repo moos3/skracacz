@@ -8,7 +8,8 @@ import (
 func InitRoutes(router *gin.Engine) {
 	urlShortener.InitRoutes(router)
 
-	api := router.Group("/api"){
-		urlShortener.InitApiRoutes(api)
+	api := router.Group("/api")
+	{
+		urlShortener.InitAPIRoutes(api)
 	}
 }

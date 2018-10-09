@@ -6,7 +6,6 @@ ENV APP_DIR $GOPATH/src/github.com/moos3/skracacz
 RUN curl -fsSL -o /usr/local/bin/dep https://github.com/golang/dep/releases/download/v0.5.0/dep-linux-amd64 && chmod +x /usr/local/bin/dep
 
 RUN mkdir /app
-#RUN mkdir -p /go/src/github.com/moos3/skracacz
 ADD . $APP_DIR
 WORKDIR $APP_DIR
 RUN /usr/local/bin/dep ensure -vendor-only
